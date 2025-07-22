@@ -3,7 +3,6 @@ import MyInfo from "@/components/MyInfo";
 import Title from "@/components/Title";
 import TechnologiesBlackHole from "@/components/Technologies/TechnologiesBlackHole";
 import Projects from "@/components/Projects/Projects";
-import Constellation from "@/components/Projects/Constellation";
 import AboutMe from "@/components/About/About Me";
 import Contact from "@/components/Contact/Contact";
 
