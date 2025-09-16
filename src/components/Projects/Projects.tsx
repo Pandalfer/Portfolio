@@ -37,19 +37,6 @@ export default function Projects() {
             modalType={"spaceAttack"}
           />{" "}
           {/* Right Ear */}
-          <Star
-            ref={starC}
-            className="top-[33%] left-[27%]"
-            text={"Test"}
-            modalType={"textana"}
-          />{" "}
-          {/* Left Eye */}
-          <Star
-            ref={starD}
-            className="top-[33%] right-[26%]"
-            text={"Test"}
-            modalType={"textana"}
-          />{" "}
           {/* Right Eye */}
         </ModalProvider>
 
