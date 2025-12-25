@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@layer base {
+  html {
+    font-family: "Inter", sans-serif;
+    letter-spacing: 0.02em;
+  }
+}
+
+@layer utilities {
+  .bg-dark {
+    @apply bg-[#0B0F1A];
+  }
+
+  .text-main-dark {
+    @apply text-[#fff];
+  }
+  .text-body-dark {
+    @apply text-[#AAAAAA];
+    @apply sm:text-sm md:text-base lg:text-lg;
+  }
+
+  .title-dark {
+    @apply text-[#fff];
+    @apply sm:text-2xl md:text-3xl lg:text-4xl;
+  }
+
+  .border-border {
+    @apply border-[#F2F2F2];
+    @apply hover:border-none;
+  }
+}
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin-reverse-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
