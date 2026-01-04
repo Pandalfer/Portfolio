@@ -29,21 +29,18 @@ export default function Projects() {
             text={"Textana"}
             modalType={"textana"}
           />{" "}
-          {/* Left Ear */}
-          {/*<Star*/}
-          {/*  ref={starB}*/}
-          {/*  className="top-[6%] right-[0%]"*/}
-          {/*  text={"Space Attack"}*/}
-          {/*  modalType={"spaceAttack"}*/}
-          {/*/>{" "}*/}
+          <Star
+            ref={starB}
+            className="top-[6%] right-[0%]"
+            text={"Space Attack"}
+            modalType={"spaceAttack"}
+          />{" "}
           <Star
             ref={starC}
             className="top-[33%] right-[19%]"
             text={"Studanova"}
             modalType={"studanova"}
           />{" "}
-          {/* Right Ear */}
-          {/* Right Eye */}
         </ModalProvider>
 
         <Line startRef={starA} endRef={starC} />
