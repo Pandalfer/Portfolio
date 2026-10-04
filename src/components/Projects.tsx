@@ -1606,7 +1606,7 @@ export default function Projects() {
 						border-radius: 999px;
 					}
 				}
-				
+
 				@media (max-width: 480px) {
 					.chart-wrapper {
 						height: 350px;
