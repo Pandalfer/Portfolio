@@ -88,16 +88,14 @@ export default function Achievements() {
 								type="button"
 								className={`patch${active ? " patch--active" : ""}`}
 								onClick={() => setSelected(i)}
-								onMouseEnter={() => setSelected(i)}
-								onFocus={() => setSelected(i)}
 								aria-pressed={active}
 								aria-label={`${a.title}. ${a.org}`}
 							>
 								<svg viewBox="0 0 160 160" className="patch__svg" aria-hidden="true">
 									<defs>
 										<radialGradient id={`ach-core-${a.id}`} cx="50%" cy="42%" r="60%">
-											<stop offset="0%" stopColor="#1b2540" />
-											<stop offset="100%" stopColor="#07080c" />
+											<stop offset="0%" stopColor="#1b2540"/>
+											<stop offset="100%" stopColor="#07080c"/>
 										</radialGradient>
 										<path
 											id={pathId}
@@ -106,9 +104,9 @@ export default function Achievements() {
 									</defs>
 
 									{/* patch body */}
-									<circle cx={C} cy={C} r="78" className="patch__rim" />
-									<circle cx={C} cy={C} r="54" fill={`url(#ach-core-${a.id})`} className="patch__core" />
-									<circle cx={C} cy={C} r="47" className="patch__dash" />
+									<circle cx={C} cy={C} r="78" className="patch__rim"/>
+									<circle cx={C} cy={C} r="54" fill={`url(#ach-core-${a.id})`} className="patch__core"/>
+									<circle cx={C} cy={C} r="47" className="patch__dash"/>
 
 									{/* rotating ring text */}
 									<g className="patch__spin">
