@@ -64,7 +64,7 @@ export default function Header() {
 								textShadow: "0 2px 12px rgba(0, 0, 0, 0.9)",
 							}}
 						>
-							Aerospace · Software · Apprenticeships
+							Aerospace · Software
 						</p>
 
 						<h1
@@ -127,7 +127,7 @@ export default function Header() {
 								}}
 								onClick={scrollToAbout}
 							>
-								Learn More →
+								About Me →
 							</button>
 
 							<button
